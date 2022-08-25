@@ -1,0 +1,41 @@
+.heading{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.form{
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    /* height: 600px; */
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+    float:left;
+}
+
+.form_input{
+    width: 40%;
+    margin-bottom: 20px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    border: solid 1px #1a75ff;
+    float:left;
+}
+
+.footer{
+    
+    display: flex;
+    margin: auto ;
+    float: left;
+}

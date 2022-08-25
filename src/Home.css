@@ -1,0 +1,65 @@
+ul{
+    list-style-type: none
+}
+button{
+    border: 1px solid #0066cc;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #0080ff;
+    margin-right: 5px;
+    color: white;
+}
+
+.header button:focus{
+    background-color: #99ccff;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+.header{
+    text-align: center;
+    margin-top: 40px;
+    
+    
+
+}
+
+.header p{
+        display: inline;
+        margin-right: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8rem;
+}
+
+thead tr{
+    background-color: #80bbff;
+    color: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #e6f1ff;
+}
+
+tr:nth-child() {
+    background-color: #b3d7ff;
+}
